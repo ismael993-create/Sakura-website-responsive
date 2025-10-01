@@ -1,0 +1,609 @@
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #9f0908;
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  z-index: 1;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #9f0908;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #9f0908;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+
+}
+
+.phone-container .phone-icon {
+  width: 24px;
+  height: 24px;
+
+  object-fit: contain;
+}
+
+.phone-container .phone {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background: #9f0908;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.phone-container:hover {
+  background: rgb(224, 160, 160);
+  border-color: rgb(224, 160, 160);
+  transform: scale(1.05);
+}
+
+.phone-container:hover .phone {
+  background: rgb(224, 160, 160);
+  border-color: rgb(224, 160, 160);
+  transform: scale(1.05);
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/1_hero/JPG/hero_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.howto {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.howto h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 64px;
+}
+
+.howto-steps {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 160px
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step img {
+  width: 128px;
+  margin-bottom: 8px;
+}
+
+.step p {
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.menu {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
+  font-family: "Raleway", sans-serif;
+  background-image: url("img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+}
+
+.essen {
+  padding-bottom: 64px;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+  margin-bottom: 56px;
+}
+
+.dish.reverse {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: end;
+}
+
+.dishimg {
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+}
+
+.dish-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.dish-info li {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  color: #575654;
+  padding-bottom: 8px;
+  width: 420px;
+}
+
+.findus {
+  text-align: center;
+  padding-top: 120px;
+  
+}
+
+footer {
+  background: #0a141e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 160px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+
+  font-size: 24px;
+
+}
+
+.logosize {
+  width: 64px;
+  height: 64px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.socialmedia img {
+  width: 40px;
+  height: 40px;
+}
+
+
+@media only screen and (min-width: 660px) and (max-width: 1100px) {
+  .nav {
+    display: none;
+  }
+
+  .header-container {
+
+    padding: 24px;
+  }
+
+  .phone-container .phone {
+    font-size: 20px;
+
+  }
+
+  .hero-text h1 {
+    font-size: 72px;
+
+  }
+
+  .hero-text p {
+    font-size: 20px;
+  }
+
+  .right {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+  }
+
+  .howto {
+
+    padding: 96px 0;
+  }
+
+  .howto h2 {
+
+
+    font-size: 64px;
+    margin-bottom: 48px;
+  }
+
+  .howto-steps {
+    padding: 0;
+  }
+
+  .step img {
+    width: 112px;
+  }
+
+  .step p {
+    font-size: 32px;
+  }
+
+  .menu {
+
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .essen {
+    padding-bottom: 48px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .dish-info li {
+    font-size: 24px;
+    padding-bottom: 8px;
+    width: 220px;
+  }
+
+  .dish {
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+
+  .findus {
+    padding-top: 96px;
+    padding-bottom: 0px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  iframe {
+
+    padding-top: 48px;
+  }
+
+  footer {
+    padding: 50px 24px;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 660px) {
+
+  .hero-text h1 {
+    font-size: 44px;
+    font-weight: 700;
+
+
+
+  }
+
+  .right {
+    position: fixed;
+    right: 16px;
+  }
+
+.right {
+    position: absolute;
+    right: 16px;
+    top: 24px;
+  }
+
+  .header-container {
+    width: 40px;
+    height: 40px;
+    padding: 24px;
+    margin: 0;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+
+  .logosize {
+    width: 40px;
+    height: 40px;
+
+
+
+  }
+
+  .phone-container .phone {
+    font-size: 16px;
+
+
+  }
+
+  .phone-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #9f0908;
+    padding: 0px 3px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .phone-container .phone-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+
+
+  .howto {
+    padding: 72px 16px;
+  }
+
+  .howto h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .howto-steps {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .step img {
+    width: 112px;
+    margin-bottom: 16px;
+  }
+
+
+  .step p {
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 32px;
+  }
+
+  .menu {
+    padding: 72px 16px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .essen {
+    padding-bottom: 40px;
+  }
+
+  .dishimg {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .dish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    flex-direction: column;
+  }
+
+  .dish.reverse {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    font-family: "Economica", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .dish-info li {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: #575654;
+    padding-bottom: 8px;
+    width: 265px;
+  }
+
+  .other-padding {
+    gap: 24px;
+  }
+
+  .findus {
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 0px;
+  }
+
+  .p2 {
+    font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  iframe {
+
+    padding-top: 40px;
+  }
+
+  footer {
+    width: auto;
+    padding: 13px 16px;
+
+
+  }
+
+  .logo-groß {
+    display: none;
+  }
+
+  .logo-klein {
+    display: inline;
+    height: 40px;
+  }
+
+  .socialmedia img {
+
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+@media(min-width: 650px) {
+
+  .logo-klein {
+    display: none;
+  }
+
+}
