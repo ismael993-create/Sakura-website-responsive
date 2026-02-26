@@ -6,7 +6,7 @@ Ein einfache Restaurant - Website
 👉 (https://ismael993-create.github.io/Sakura-website-responsive/)
 
 ## 📸 Vorschau
-![Preview](/sakura_responsive.png)
+![Preview](sakura_responsive.png)
 
 ## 💻 Technologien
 - HTML
